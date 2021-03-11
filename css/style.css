@@ -1,0 +1,289 @@
+/* global css section */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+}
+/* font-family: 'Poppins', sans-serif; */
+h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*header section css*/
+
+header{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background: white;
+}
+.btn-outline-success{
+    background: #2500f9;
+    color: white;
+    font-weight: 700;
+    padding: 16px 42px;
+    border: none;
+    border-radius: 35px;
+}
+.btn-outline-success:hover{
+	background: #feaa25;
+}
+.nav-link{
+	font-weight: 600;
+}
+.navbar-nav{
+	margin-right: 24px;
+}
+.nav-item{
+	margin: 0 10px;
+}
+/*banner section css*/
+
+.banner{
+	width: 100%;
+	padding-top: 80px;
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.designs{
+	margin-top: 150px;
+}
+.btn-outline-danger{
+    background: transparent;
+    color: #2500f9;
+    font-weight: 700;
+    padding: 16px 42px;
+    border: none;
+    border-radius: 35px;
+}
+.btn-outline-danger:hover{
+	background: #feaa25;
+}
+.banner h1{
+	font-weight: 600;
+	font-size: 60px;
+	margin: 20px 0px;
+	color: #242f51;
+}
+.banner p{
+	font-weight: 400;
+	font-size: 18px;
+	margin-right: 60px;
+	margin-bottom: 35px;
+	color: #616368;
+}
+.banner-badge{
+	background: #e2eaed;
+    display: inline-block;
+    padding-right: 20px;
+    border-radius: 35px;
+}
+.banner-badge span{
+	font-size: 18px;
+    font-weight: 400;
+}
+.banner-badge span i{
+	height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #feaa25;
+    border-radius: 50%;
+    color: white;
+}
+
+/*company-logo section css*/
+
+.company-logo{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+.company-logo h6{
+	font-weight: 400;
+	font-size: 18px;
+}
+.owl-carousel .owl-item img{
+	display: inline-block;
+	width: auto;
+}
+.owl-stage{
+	display: flex;
+	align-items: center;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+	display: none;
+}
+
+/*feature section css*/
+.feature{
+	width: 100%;
+	padding: 70px 0px;
+}
+.feature .right h2{
+	font-size: 36px;
+    font-weight: 600;
+    margin-right: 100px;
+    margin-bottom: 16px;
+    
+    color: #242f51;
+}
+.feature .right p{
+	font-size: 16px;
+    font-weight: 400;
+    margin-right: 50px;
+    color: #616368;
+}
+.right-list{
+    margin-top: 85px;
+}
+.right-list h4, .items h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: #f55767;
+}
+.right-list p{
+	margin-right: 90px !important;
+}
+.item-1{
+	margin-bottom: 42px;
+}
+.item-2{
+	margin-bottom: 42px;
+}
+.item-2 h4{
+    color: #2563ff;
+}
+.item-3 h4{
+    color: #40975f;
+}
+
+/*promotion section css*/
+
+.promotion{
+	width: 100%;
+	padding: 60px 0px;
+}
+.promotion .left{}
+.promotion .right{
+	border-left: 1px solid black;
+}
+.promotion .left h1{
+	margin: 0px 105px;
+	color: #242f51;
+	font-weight: 600;
+	font-size: 40px;
+}
+.promotion .right p{
+	font-size: 16px;
+    font-weight: 400;
+    margin: 28px 83px;
+    color: #616368;
+}
+
+/*feature-1 section css*/
+
+.feature-1{
+	width: 100%;
+	padding: 55px 0px;
+}
+.items p{
+	font-size: 16px;
+    font-weight: 400;
+    margin-right: 115px;
+    color: #616368;
+}
+
+/*integration section css*/
+
+.integration{
+	width: 100%;
+	padding: 60px 0px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.integration h3{
+	font-weight: 600;
+	font-size: 36px;
+	margin-right: 250px;
+	margin-bottom: 25px;
+	color: #242f51;
+}
+.integration p{
+	font-size: 16px;
+    font-weight: 400;
+    margin-right: 200px;
+    margin-bottom: 25px;
+    color: #616368;
+}
+.design{
+	margin-top: 100px;
+}
+
+/*why us section css*/
+
+.why-us{
+	width: 100%;
+	padding: 90px 0px;
+	text-align: center;
+}
+.upper{
+	margin-bottom: 55px;
+}
+.upper h1{
+	font-weight: 600;
+	font-size: 36px;
+	color: #242f51;
+	margin: 25px 400px;
+}
+.upper p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 320px;
+    color: #616368;
+}
+.item h4{
+	font-weight: 600;
+	font-size: 20px;
+	color: #242f51;
+}
+.item p{
+	font-size: 16px;
+    font-weight: 400;
+    margin: 12px 60px;
+    color: #616368;
+}
+
+/*feature-2 section css*/
+
+.feature-2{
+	width: 100%;
+	padding: 90px 0px;
+}
+.feature-2 h2{
+	font-weight: 600;
+	font-size: 36px;
+	color: #242f51;
+	margin-right: 300px;
+}
+.feature-2 p{
+	font-size: 16px;
+    font-weight: 400;
+    color: #616368;
+    margin-right: 200px;
+}
+.left-list h4{
+	font-weight: 600;
+	font-size: 20px;
+	color: #242f51;
+}
+.left-list p{
+	font-size: 16px;
+    font-weight: 400;
+    color: #616368;
+    margin-right: 45px;
+}
