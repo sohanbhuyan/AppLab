@@ -1,0 +1,347 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  /*banner section css*/
+
+  .banner{
+    height: auto;
+  }
+  .designs{
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+  .banner-badge span{
+    font-size: 9px;
+  }
+  .banner-badge span i{
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+  }
+  .banner h1{
+    font-weight: 500;
+    font-size: 18px;
+    width: 50%;
+  }
+  .banner p{
+    font-size: 10px;
+    margin-bottom: 15px;
+    width: 55%;
+  }
+  .btn-outline-success{
+    font-size: 8px;
+    padding: 12px 15px;
+    border-radius: 30px;
+  }
+  .btn-outline-danger{
+    font-size: 8px;
+    padding: 12px 15px;
+    border-radius: 30px;
+  }
+
+  /*company-logo section css*/
+
+  .company-logo{
+    padding: 50px 0px;
+  }
+  .company-logo h6{
+    font-size: 14px;
+  }
+
+  /*feature section css*/
+
+  .feature{
+    text-align: center;
+  }
+  .feature .right h2{
+    font-size: 24px;
+    margin-right: 0;
+  }
+  .feature .right p{
+    font-size: 13px;
+    margin-right: 0;
+  }
+  .right-list{
+    margin-top: 50px;
+  }
+  .right-list h4, .items h4{
+    font-size: 14px;
+  }
+  .right-list p{
+    margin-right: 0 !important;
+  }
+
+  /*promotion section css*/
+
+  .promotion{
+    padding: 40px 0px;
+    text-align: center;
+  }
+  .promotion .left h1{
+    font-size: 15px;
+    margin: 0px 5px 15px;
+  }
+  .promotion .right{
+    border-top: 1px solid black;
+    border-left: none;
+  }
+  .promotion .right p{
+    font-size: 12px;
+    margin: 18px 50px;
+  }
+
+  /*feature-1 section css*/
+
+  .feature-1{
+    padding: 40px 0px;
+    text-align: center;
+  }
+  .items p{
+    font-size: 12px;
+    margin-right: 0;
+  }
+
+  /*integration section css*/
+
+  .integration{
+    text-align: center;
+  }
+  .design{
+    margin-top: 65px;
+  }
+  .integration h3{
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .integration p{
+    font-size: 12px;
+     margin-right: 0px; 
+    margin-bottom: 20px;
+  }
+
+  /*why us section css*/
+
+  .why-us{
+    padding: 50px 0px;
+  }
+  .upper{
+    margin-bottom: 20px;
+  }
+  .upper h1{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .upper p{
+    font-size: 12px;
+    margin: 0;
+  }
+  .us-item h4{
+    font-size: 15px;
+  }
+  .us-item p{
+    font-size: 12px;
+  }
+
+  /*feature-2 section css*/
+
+  .feature-2{
+    text-align: center;
+  }
+  .feature-2 h2{
+    font-size: 24px;
+    margin: 0px 15px;
+  }
+  .feature-2 p{
+    font-size: 12px;
+    margin-right: 0;
+  }
+
+  /*pricing section css*/
+
+  .pricing .title h2{
+    font-size: 24px;
+  }
+  .pricing .title p{
+    font-size: 12px;
+  }
+  .price-selector{
+    border-radius: 30px;
+  }
+  .price-selector button{
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+  .offset-2{
+    margin-left: 0;
+  }
+  .table-head{
+    padding: 25px;
+  }
+  .my-5{
+    margin-bottom: 1rem!important;
+  }
+  .table-head h1{
+    font-size: 32px;
+  }
+  .table-head h1 span{
+    font-size: 14px;
+  }
+  .table-head h5{
+    font-size: 15px;
+  }
+  .table-head p{
+    font-size: 14px;
+  }
+  .table-body{
+    margin-bottom: 25px;
+  }
+  .table-body ul li:nth-child(1){
+    padding-top: 26px;
+    padding-bottom: 8px;
+  }
+  .table-body ul li{
+    padding: 10px 0px;
+    font-size: 14px;
+  }
+
+  /*testimonial section css*/
+
+  .testimonial{
+    text-align: center;
+    padding: 70px 0px;
+  }
+  .testimonial-head h1{
+    margin-top: 50px;
+    font-size: 25px;
+    width: auto;
+  }
+  .testimonial-head p{
+    font-size: 14px;
+    width: auto;
+  }
+  .testimonial-head h6{
+    font-size: 15px;
+  }
+  .testimonial-head, .testimonial-body{
+    margin-left: 0;
+  }
+  .user-body{
+    margin-top: 35px;
+  }
+  .user-body h6{
+    font-size: 15px;
+  }
+  .user-body h6 span{
+    font-size: 15px;
+  }
+
+  /*faq section css*/
+
+  .faq h1{
+    font-size: 25px;
+  }
+  .faq p{
+    font-size: 14px;
+    width: auto;
+  }
+
+  /*trail section code*/
+
+  .trail{
+    text-align: center;
+  }
+  .trail h1{
+    font-size: 25px;
+  }
+  .trail p{
+    font-size: 14px;
+  }
+  .me-3{
+    margin-right: 0 !important;
+  }
+
+  /*footer section css*/
+  
+  .footer{
+    padding: 50px 0px;
+  }
+  .footer-nav ul li a{
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  .footer-icon ul li{
+    font-size: 24px;
+  }
+  .footer p{
+    font-size: 10px;
+  }
+  .mt-5{
+   margin-top: 2rem!important;
+  }
+
+}
